@@ -2,15 +2,18 @@
 public class Collatz {
 
 	public static void main(String[] args) {
-	//collatz(1,100);
+	System.out.println("Collatz-Folge: ");
+	collatz(0,5);
+	System.out.println("Fibonacci-Folge: ");
 	fibfolge(20);
-	//System.out.println("fac(9) = "+fac(9));
+	System.out.println("Fakultät: ");
+	System.out.println("fac(9) = "+fac(9));
 	}
 	
 	
 	static void fibfolge(long max){
 		for(long i =0; i<=max;i++){
-			if(i==max){System.out.print(fibonacci(i));}
+			if(i==max){System.out.println(fibonacci(i));}
 			else{System.out.print(fibonacci(i)+", ");}
 			}
 	}
