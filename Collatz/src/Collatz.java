@@ -9,6 +9,11 @@ public class Collatz {
 	fibfolge(20);
 	System.out.println("Fakultät: ");
 	System.out.println("fac(9) = "+fac(9));
+	System.out.println(Wahroderfalsch());
+	}
+	
+	static boolean Wahroderfalsch(){
+		return (4==3 || 5==4);
 	}
 	
 	
