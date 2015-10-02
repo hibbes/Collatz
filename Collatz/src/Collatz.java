@@ -7,20 +7,20 @@ public class Collatz {
 	collatz(0,5);
 	System.out.println("Fibonacci-Folge: ");
 	fibfolge(20);
-	System.out.println("Fakult√§t: ");
+	System.out.println("Fakult‰t: ");
 	System.out.println("fac(9) = "+fac(9));
 	System.out.println(Wahroderfalsch());
 	}
 	
 	static boolean Wahroderfalsch(){
-		return (4==3 || 5==4);
+		return (false || false);
 	}
 	
 	
 	static void fibfolge(long max){
 		for(long i =0; i<=max;i++){
 			if(i==max){System.out.println(fibonacci(i));}
-			else{System.out.print(fibonacci(i)+", ");}
+			 else{System.out.print(fibonacci(i)+", ");}
 			}
 	}
 	
