@@ -4,7 +4,7 @@ public class Collatz {
 	public static void main(String[] args) {
 
 	System.out.println("Collatz-Folge: ");
-	collatz(0,5);
+	collatz(6,49);
 	System.out.println("Fibonacci-Folge: ");
 	fibfolge(20);
 	System.out.println("Fakultät: ");
@@ -40,26 +40,11 @@ public class Collatz {
 		 	 
 	while(startzahl<=limit){
 	  long zahl = startzahl;
-
-	
- 	 
-	while(startzahl<=100){
-	
-
-	 
-
-	 if(startzahl>1){System.out.print(" fÃ¼r "+ (startzahl)+": "); }
-
-	 if(startzahl>1){System.out.print(" fÃ¼r "+ (startzahl)+": "); }
-
-	 	while(zahl >1){		
-			if(zahl%2==0){
-				zahl=zahl/2;
-			    }
-			
-			else{zahl=(zahl*3)+1;}
-			
-		
+	  if(startzahl>1){System.out.print(" für "+ (startzahl)+": "); }
+	 	while(zahl>1){		
+			if(zahl%2==0){zahl=zahl/2;}
+			  else{zahl=(zahl*3)+1;}
+					
 			if(zahl>1){System.out.print(zahl+", ");}
 			else
 			if (zahl<10){System.out.println(zahl);}
@@ -72,4 +57,4 @@ public class Collatz {
    }
 	
 
-	}}
+	}
